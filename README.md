@@ -3,11 +3,12 @@ video masking
 
 ## Methodology
 
-workflow
+![workflow](img/image.png)
 
 Why YOLO? 
 It’s a fast, one-stage detector with a mature ecosystem and easy deployment. It works well for near-real-time demos and can be swapped between hosted and self-trained weights
 
+![ByteTrack](img/image2.png)
 What is ByteTrack? 
 A lightweight tracking-by-detection method. It first matches high-confidence detections, then uses low-confidence ones to fill short gaps, so IDs stay consistent even if some frames miss detections. No extra training is needed
 
